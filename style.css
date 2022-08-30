@@ -1,0 +1,46 @@
+body.debug .container,
+body.debug .container-fluid {
+  outline: 2px double blue;
+  outline-offset: -2px;
+}
+
+body.debug .row {
+  outline: 2px dashed red;
+  outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+  outline: 2px dotted forestgreen;
+  outline-offset: -3px;
+}
+
+.bold-text {
+  color: white;
+  font-weight: 700;
+}
+
+.bolder-text {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 800;
+}
+
+.package {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.package-finder {
+  max-height: 70vh;
+  max-width: 75vw;
+  background-color: rgb(27, 27, 27);
+}
+
+.package-header {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.package-container {
+  max-height: 50vh;
+}
